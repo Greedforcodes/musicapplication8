@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 1440px;
+    height: 94px;
+    background-color: #000000;
+   padding: 12px;
+   display: flex;
+   align-items: center;
+}
+
+header ul{
+    width: 272px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+header ul li a{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+header h1{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-left: 100px;
+}
+header h1 img{
+    width: 100%;
+}
+.todayhits{
+    margin-top: 50px;
+    margin-left: 108px;
+}
+.minicharcho{
+    width: 1176px;
+    height: 272px;
+   
+    margin-top: 50px;
+    margin-left: 108px;
+    display: flex;
+    justify-content: space-between;
+}
+.charcho1{
+    width: 300px;
+    height: 246px;
+    border: 1px solid; color: rgb(0, 0, 0);
+}
+.charcho1 article{
+    width: 286px;
+    height: 244px;
+    background-image: url(../img/sound\ 1.png);
+    background-repeat: repeat-x;
+    background-size: 25%;
+    background-position-y: 58px;
+    margin-left: 6px;
+    position: relative;
+}
+.guli{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(../img/guli.png);
+}
+.guli:hover{
+    background-image: url(../img/okrosguli.png);
+}
+
+.trackartisth{
+    position: absolute;
+    color: #000000;
+    margin-top: 146px;
+    margin-left: 12px;
+    font-size: 18px;
+}
+.trackartistp{
+    position: absolute;
+    color: #000000;
+    margin-top: 180px;
+    margin-left: 12px;
+    font-size: 14px;
+}
+.linkistvis a{
+    color: #000000;
+    font-size: 12px;
+}
+.Latesthits{
+    margin-left: 108px;
+    font-size: 24px;
+    margin-top: 22px;
+}
+.divdidicharcho{
+width: 1176px;
+height: 916px;
+margin-top: 22px;
+margin-left: 108px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+footer{
+    width: 1440px;
+    height: 354px;
+    background-color:#000000;
+}
+.footeristvis{
+  width: 150px;
+  height: 150px;
+  margin:50px auto;  
+}
+.footeristvis img{
+    width: 100%;
+}
+.text{
+    margin-left: 674px;
+}
+
+
+footer a {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+footer p{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 648px;
+    margin-top: 50px;
+}
+.social{
+    width: 50px;
+    height: 106px;
+    position: absolute;
+    right: 460px;
+    top: 300px;
+}
+.social div{
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.instagram {
+    background-image: url(../img/instagram\ 1.png);
+   
+}
+.facebook{
+    background-image: url(../img/fb\ 1.png);
+}
+.instagram:hover{
+    background-image: url(../img/instagramoqro.png);
+}
+.facebook:hover{
+    background-image: url(../img/facebookokro.png);
+}
+/*----------------------Playlistpage---------------------*/
+.oriplaylist{
+    width: 718px;
+    height: 362px;
+    margin-top: 50px;
+    margin-left: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.playlistn1{
+    width: 280px;
+    height: 362px;
+}
+.playlisttext{
+    margin-top: 50px;
+}
+.playlistn2{
+    width: 280px;
+    height: 362px;  
+}
+.noti4{
+    width: 287px;
+    height: 66px;
+    background-image: url(../img/sound\ 1.png);
+    background-size: 25%;
+    background-position: x;
+    margin-left: 560px;
+}
+.udidesicharchoplaylist{
+    width: 1252px;
+    height: 364px;
+    margin-top: 106px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noti5{
+    width: 287px;
+    height: 66px;
+    background-image: url(../img/sound\ 1.png);
+    background-size: 25%;
+    background-position: x;
+    margin-left: 560px;
+    margin-top: 140px;
+}
+.Thankforvisiting{
+    margin-top: 108px;
+    font-size: 30px;
+    margin-left: 500px;
+    padding-bottom: 144px;
+}
